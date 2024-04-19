@@ -76,7 +76,7 @@ theme_mode: [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: img/bhc.jpg
+avatar: img/ctys.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -171,6 +171,12 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+  - scope:
+      path: ""
+      type: reports
+    values:
+      layout: report
+      permalink: /reports/:title/
 
 sass:
   style: compressed
